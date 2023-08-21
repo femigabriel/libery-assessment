@@ -1,0 +1,218 @@
+.wallet_card {
+  background: #032282;
+  width: 100%;
+  /* max-width: 289px; */
+  border-radius: 12px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.wallet_card p {
+  color: #cdcdcd;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+.wallet_card h3 {
+  color: #fff;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+}
+.wallet_card button {
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.15);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+}
+.savings_card {
+  width: 100%;
+  max-width: 249px;
+  /* height: 154px; */
+  padding: 8px;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+.savings_card p {
+  color: #4f64a7;
+  font-family: "Sora", sans-serif;
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.16px;
+}
+.savings_card h3 {
+  color: #032282;
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 1.16px;
+}
+.savings_card span {
+  color: #032282;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.16px;
+}
+.savings_card button {
+  border-radius: 6px;
+  background: #eaf4ff;
+  color: #032282;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0.16px;
+  padding: 8px;
+  cursor: pointer;
+  height: 30px;
+  /* width: 70px; */
+}
+.savings_card h4 {
+  color: #032282;
+  font-family: "Sora", sans-serif;
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 31px; /* 221.429% */
+  letter-spacing: 1.16px;
+  text-align: center;
+}
+.savings_card h5 {
+  color: #4f64a7;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px; /* 125% */
+  letter-spacing: 0.16px;
+}
+.savings_card h2 {
+  color: #263238;
+  font-family: "Sora", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 1.16px;
+}
+.comperative_card {
+  width: 100%;
+  border-radius: 10px;
+  background: #fff;
+  height: 100%;
+  /* max-width: 488px;
+  max-height: 168px; */
+}
+.bar-chart img {
+  width: 170px;
+  height: 171.393px;
+}
+
+@media screen and (max-width: 860px) {
+  .savings_card {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .savings_card h3 {
+    font-size: 20px;
+  }
+  .savings_card h4 {
+    font-size: 18px;
+  }
+  .savings_card h3 {
+    font-size: 18px;
+  }
+  .savings_card p {
+    font-size: 14px;
+  }
+  .savings_card h5 {
+    font-size: 14px;
+  }
+  .savings_card span {
+    font-size: 14px;
+  }
+  .savings_card button {
+    width: 44px;
+  }
+  .wallet_card p {
+    font-size: 12px;
+  }
+  .wallet_card h3 {
+    font-size: 18px;
+  }
+  .wallet_card button {
+    font-size: 10px;
+    width: 100%;
+    line-height: normal;
+    padding: 5px 10px;
+  }
+  .bar-chart {
+    width: 207px;
+    height: 208.393px;
+  }
+  .comperative_card h2 {
+    font-size: 18px;
+  }
+
+  /* .comperative_card {
+    height: 100vh;
+    width: 100%;
+  } */
+}
+
+@media screen and (max-width: 380px) {
+  .savings_card h3 {
+    font-size: 16px;
+  }
+  .savings_card h4 {
+    font-size: 14px;
+  }
+  .savings_card h3 {
+    font-size: 14px;
+  }
+  .savings_card p {
+    font-size: 10px;
+  }
+  .savings_card h5 {
+    font-size: 10px;
+  }
+  .savings_card span {
+    font-size: 10px;
+  }
+  .savings_card button {
+    width: 44px;
+  }
+  .wallet_card p {
+    font-size: 12px;
+  }
+  .wallet_card h3 {
+    font-size: 18px;
+  }
+  .wallet_card button {
+    font-size: 10px;
+    width: 100%;
+    line-height: normal;
+    padding: 5px 10px;
+  }
+  .bar-chart {
+    width: 207px;
+    height: 208.393px;
+  }
+  .comperative_card h2 {
+    font-size: 14px;
+  }
+
+  /* .comperative_card {
+      height: 100vh;
+      width: 100%;
+    } */
+}
