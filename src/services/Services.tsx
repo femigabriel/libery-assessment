@@ -25,6 +25,3 @@ export type AuthList = {
   title: string;
   description: string;
 };
-
-
-

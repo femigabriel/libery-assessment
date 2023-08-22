@@ -46,13 +46,6 @@ export const UserSavingsDetails = () => {
 export const WalletBalanceCard = () => {
   return (
     <>
-      {/* <div className="flex justify-between sliders">
-        <div></div>
-        <div>
-          <img src={slide1} alt="" />
-          <img src={slide2} alt="" />
-        </div>
-      </div> */}
       <div className={styles.wallet_card}>
         <div className="flex sliders">
           <img

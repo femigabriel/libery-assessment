@@ -3,7 +3,7 @@ import styles from "../../styles/dashboard.module.css";
 import DownIcon from "@/svgs/DownIcon";
 import BarChat from "@/svgs/BarChat";
 import Image from "next/image";
-
+const barchat = "./images/bar-chat.png";
 const cashoutTransactionDetails = [
   {
     id: 1,
@@ -16,9 +16,7 @@ const cashoutTransactionDetails = [
 ];
 export const TransactionComparative = () => {
   return (
-    <div
-    // className="w-full lg:max-w-[75%] flex  gap-3 card"
-    >
+    <div>
       <div className="w-full lg:max-w-[75%] flex card">
         <AverageCommissionCard />
         <TransactionComparativeChart />
@@ -105,16 +103,13 @@ export const TransactionComparativeChart = () => {
           </div>
         </div>
         <div className="flex lg:justify-center">
-          <Image
-            src="/images/bar-chat.png"
-            width={200}
-            height={200}
+          <img
+            src={barchat}      
             className=" cursor-pointer lg:w-[170px] lg:h-[171px]"
             alt="profile-image"
           />
         </div>
       </div>
-    
     </div>
   );
 };

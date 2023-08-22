@@ -30,7 +30,15 @@ import DeviceIcon from "@/svgs/DeviceIcon";
 const downArrowIcon = "./icons/downArrowIcon.svg";
 const homeIcon = "./icons/home-2.svg";
 const dashboardIcon = "./icons/category-2.svg";
+const salesIcon = "./icons/shop.svg";
 const personalIcon = "./icons/strongbox.svg";
+const talentsIcon = "./icons/3dcube.svg";
+const spendIcon = "./icons/card-edit.svg";
+const cardsIcon = "./icons/cards.svg";
+const leaderboardIcon = "./icons/medal-star.svg";
+const profileIcon = "./icons/security-user.svg";
+const performanceIcon = "./icons/security-user.svg";
+const arrowRightIcon = "./icons/Chevron-Right.svg";
 
 export const Headers = (props: AuthList) => {
   const router = useRouter;
@@ -50,61 +58,61 @@ export const Headers = (props: AuthList) => {
     {
       id: 0,
       title: " Home",
-      icon: <HomeIcon />,
+      icon: <img src={homeIcon} className="" alt="home-icon" />,
       link: "/home",
     },
     {
       id: 1,
       title: "Analytics Dashboard",
-      icon: <DashboardIcon />,
+      icon: <img src={dashboardIcon} className="" alt="home-icon" />,
       link: "/",
     },
     {
       id: 2,
       title: "Personal",
-      icon: <SettingsIcon />,
+      icon: <img src={personalIcon} className="" alt="home-icon" />,
       link: "/personal",
     },
     {
       id: 3,
       title: "Sales Hub",
-      icon: <RequesIcon />,
+      icon: <img src={salesIcon} className="" alt="home-icon" />,
       link: "/sales",
     },
     {
       id: 4,
       title: "Talent Management",
-      icon: <DarkModeIcon />,
+      icon: <img src={talentsIcon} className="" alt="home-icon" />,
       link: "/talent",
     },
     {
       id: 5,
       title: "Spend Management",
-      icon: <DeviceIcon />,
+      icon: <img src={spendIcon} className="" alt="home-icon" />,
       link: "/spend",
     },
     {
       id: 6,
       title: "Cards",
-      icon: <DarkModeIcon />,
+      icon: <img src={cardsIcon} className="" alt="home-icon" />,
       link: "/card",
     },
     {
       id: 7,
       title: "Leaderboard",
-      icon: <UsersIcon />,
+      icon: <img src={leaderboardIcon} className="" alt="home-icon" />,
       link: "/leaderboard",
     },
     {
       id: 8,
       title: "Profile & Settings",
-      icon: <LogIcon />,
+      icon: <img src={profileIcon} className="" alt="home-icon" />,
       link: "/profile",
     },
     {
       id: 9,
       title: "Bank performance",
-      icon: <PurseIcon />,
+      icon: <img src={performanceIcon} className="" alt="home-icon" />,
       link: "/performance",
     },
   ];
@@ -116,7 +124,9 @@ export const Headers = (props: AuthList) => {
       label: (
         <Link href="/" className="login-link flex">
           <img src={dashboardIcon} className="mt-2" />
-          <span className="text-[16px] font-semibold mx-3 mt-2">Analytics Dashboard</span>
+          <span className="text-[16px] font-semibold mx-3 mt-2">
+            Analytics Dashboard
+          </span>
         </Link>
       ),
     },
