@@ -3,6 +3,7 @@ import styles from "../../styles/dashboard.module.css";
 import Eyesicons from "@/svgs/EyesIcon";
 const slide2 = "./icons/slides-2.svg";
 const slide1 = "./icons/slides-1.svg";
+const slide3 = "./icons/slides-3.svg";
 const forwardarrowIcon = "./icons/forwardArrowIcon.svg";
 
 export const UserSavingsDetails = () => {
@@ -51,11 +52,16 @@ export const WalletBalanceCard = () => {
           <img
             src={slide2}
             alt="slides-1"
-            className="slides-1 relative left-[30px] bottom-[15px]"
+            className="s relative left-[30px] bottom-[15px]"
+          />
+          <img
+            src={slide3}
+            className=" relative left-[25px] bottom-[6px]"
+            alt=""
           />
           <img
             src={slide1}
-            className="slides-1 relative left-[25px] bottom-[-2px]"
+            className="relative left-[-40px] bottom-[-2px]"
             alt=""
           />
         </div>
